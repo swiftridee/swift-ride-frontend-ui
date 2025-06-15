@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+# Swift Ride Frontend UI
 
-## Project info
+A modern and user-friendly frontend application for Swift Ride, a vehicle rental service platform. Built with React and TypeScript, this frontend application provides an intuitive interface for users to browse and book vehicles.
 
-**URL**: https://lovable.dev/projects/643010b0-6ea0-4f3c-984b-d9dd29d03294
+## 🚀 Frontend Features
 
-## How can I edit this code?
+### User Interface
+- **Vehicle Browsing**
+  - Browse different vehicle categories (Cars, Buses, Coasters, Mini Buses)
+  - Advanced filtering options
+  - Search functionality
+  - Responsive vehicle cards with details
 
-There are several ways of editing your application.
+- **User Authentication UI**
+  - Clean login interface
+  - Registration form
+  - Password recovery flow
+  - Profile management dashboard
 
-**Use Lovable**
+- **Booking Interface**
+  - Interactive booking form
+  - Date and time selection
+  - Vehicle details view
+  - Booking confirmation screen
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/643010b0-6ea0-4f3c-984b-d9dd29d03294) and start prompting.
+### Technical Features
+- **Responsive Design**
+  - Mobile-first approach
+  - Cross-device compatibility
+  - Touch-friendly interface
+  - Adaptive layouts
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Modern UI/UX**
+  - Clean and intuitive design
+  - Smooth animations
+  - Dark/Light mode support
+  - Loading states and transitions
 
-**Use your preferred IDE**
+- **Performance Optimized**
+  - Fast loading times
+  - Optimized images
+  - Lazy loading
+  - Code splitting
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React** - Frontend library
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Next generation frontend tooling
+- **Shadcn UI** - Reusable UI components
 
-Follow these steps:
+## 📦 Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/swiftridee/swift-ride-frontend-ui.git
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-**Use GitHub Codespaces**
+## 🔧 Environment Variables
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Create a `.env` file in the root directory and add the following variables:
+```env
+VITE_API_URL=your_api_url_here
+```
 
-## What technologies are used for this project?
+## 📱 Available Scripts
 
-This project is built with:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run format` - Format code with Prettier
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🏗️ Project Structure
 
-## How can I deploy this project?
+```
+src/
+├── components/     # Reusable UI components
+│   ├── ui/        # Basic UI components
+│   └── Layout/    # Layout components
+├── pages/         # Page components
+├── contexts/      # React contexts
+├── hooks/         # Custom hooks
+├── lib/           # Utility functions
+└── data/          # Mock data and constants
+```
 
-Simply open [Lovable](https://lovable.dev/projects/643010b0-6ea0-4f3c-984b-d9dd29d03294) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 👥 Contact
+
+- GitHub: [@swiftridee](https://github.com/swiftridee)
+- Email: contactswiftride@gmail.com
+
+## 🙏 Acknowledgments
+
+- [Shadcn UI](https://ui.shadcn.com/) for the beautiful UI components
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+- [Vite](https://vitejs.dev/) for the blazing fast build tool
